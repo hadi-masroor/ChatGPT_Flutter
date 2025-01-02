@@ -171,7 +171,7 @@ Future<String> fetchGPTResponse(String prompt) async {
                       ),
                     ),
                     IconButton(
-                      //onPressed: () => sendMessageNormal(), //حالت اول: استفاده از هوش مصنوعی
+                      //onPressed: () => sendMessage(controllerTextField.text), //حالت اول: استفاده از هوش مصنوعی
                       onPressed: () => sendMessageNormal(),  // حالت دوم: چت بدون هوش مصنوعی
                       icon: Icon(Icons.send,color: Colors.black.withOpacity(0.8),),
                     ),
